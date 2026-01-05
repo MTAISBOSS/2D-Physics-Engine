@@ -1,4 +1,6 @@
 ﻿using System;
+using OpenTK;
+using Physics_Engine.Graphics;
 
 namespace Physics_Engine
 {
@@ -6,7 +8,8 @@ namespace Physics_Engine
     {
         public static void Main()
         {
-            Console.WriteLine("Hello Physics");
+            GameWindow gameWindow = new GameWindow(500, 500);
+            var window = new Window(gameWindow);
         }
     }
 }

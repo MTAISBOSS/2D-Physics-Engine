@@ -32,13 +32,18 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4">
+          <HintPath>..\Dependencies\Graphics\Binaries\OpenTK\Release\OpenTK.dll</HintPath>
+        </Reference>
         <Reference Include="System" />
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Core\Rigidbody2D.cs" />
         <Compile Include="Engine.cs" />
+        <Compile Include="Graphics\Window.cs" />
         <Compile Include="Math\Mathematics.cs" />
         <Compile Include="Math\Vector2.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
