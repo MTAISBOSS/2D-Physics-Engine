@@ -1,5 +1,5 @@
 # Enigma 2D Physics Engine
-[Click Here To See The Documentation](https://htmlpreview.github.io/?https://github.com/MTAISBOSS/Enigma-2D-Physics-Engine/blob/master/Logo%20Render.png)
+![Enigma Logo](/Logo_Render.png "Logo")
 
 ## Documentation and Project Overview
 Hello and welcome
